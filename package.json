@@ -1,0 +1,18 @@
+{
+  "name": "streamfor",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "cable_ready": "^4.4.3",
+    "stimulus": "^2.0.0",
+    "stimulus_reflex": "3.4.0-pre8",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
