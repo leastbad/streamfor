@@ -13,6 +13,7 @@ You can find out more in the [CableReady Docs](https://cableready.stimulusreflex
 3. Run `bin/setup`
 4. Start the server with `rails s`
 5. Open your browser's Console Inspector and go to `localhost:3000`
+6. Login as `test@test.com` with the password `topsecret` or create your own account
 
 Note that caching in development is locked in the "on" position. This is a good thing.
 
