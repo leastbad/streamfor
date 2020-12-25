@@ -10,7 +10,7 @@ You can find out more in the [CableReady Docs](https://cableready.stimulusreflex
 
 1. Install and run [Redis](https://redis.io/download)
 2. Clone this repo to your machine and go to the project folder
-3. Run `bundle install && yarn install && rake db:migrate`
+3. Run `bin/setup`
 4. Start the server with `rails s`
 5. Open your browser's Console Inspector and go to `localhost:3000`
 
