@@ -5,8 +5,8 @@ ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
-# Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
+
+gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -50,5 +50,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "devise", "~> 4.7"
-gem "cable_ready", "~> 4.4"
-gem "stimulus_reflex", github: "hopsoft/stimulus_reflex", branch: "master"
+gem "cable_ready", "~> 4.4.6"
+gem "stimulus_reflex", "~> 3.4.0"

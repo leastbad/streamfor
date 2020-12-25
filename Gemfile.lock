@@ -1,15 +1,3 @@
-GIT
-  remote: https://github.com/hopsoft/stimulus_reflex.git
-  revision: a6761e692dd08266c39cd659c61a9e17f346526b
-  branch: master
-  specs:
-    stimulus_reflex (3.4.0.pre8)
-      cable_ready (>= 4.4)
-      nokogiri
-      rack
-      rails (>= 5.2)
-      redis
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -76,7 +64,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
-    cable_ready (4.4.3)
+    cable_ready (4.4.6)
       rails (>= 5.2)
     capybara (3.34.0)
       addressable
@@ -124,7 +112,6 @@ GEM
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
-    pg (1.2.3)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -184,6 +171,13 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.2)
+    stimulus_reflex (3.4.0)
+      cable_ready (>= 4.4)
+      nokogiri
+      rack
+      rails (>= 5.2)
+      redis
     thor (1.0.1)
     thread_safe (0.3.6)
     turbolinks (5.2.1)
@@ -219,17 +213,17 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
-  cable_ready (~> 4.4)
+  cable_ready (~> 4.4.6)
   capybara (>= 2.15)
   devise (~> 4.7)
   jbuilder (~> 2.7)
   listen (~> 3.2)
-  pg (>= 0.18, < 2.0)
   pry-rails
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   selenium-webdriver
-  stimulus_reflex!
+  sqlite3 (~> 1.4)
+  stimulus_reflex (~> 3.4.0)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
